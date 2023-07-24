@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dc-metro-map-wskl
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/release-e2e-pyxis-tenant/appstudio/dc-metro-map-wskl@sha256:4d5ccff92b60399d1ae053b51a0ee3cd5a5597b38a59befa27ba50d8bda930c8
+        name: my-nodejs
+        resources: {}
+status: {}
