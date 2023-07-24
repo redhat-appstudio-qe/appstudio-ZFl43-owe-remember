@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-wskl
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/release-e2e-pyxis-tenant/appstudio/dc-metro-map-wskl@sha256:4d5ccff92b60399d1ae053b51a0ee3cd5a5597b38a59befa27ba50d8bda930c8
         name: my-nodejs
         ports:
         - containerPort: 3001
